@@ -1,4 +1,3 @@
-USE Tables
 CREATE TABLE SKU(ID int PRIMARY KEY identity
 				, Code AS 's' + CONVERT(VARCHAR(10), ID) UNIQUE
 				, [Name] varchar(30));
